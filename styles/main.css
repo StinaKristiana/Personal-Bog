@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0.5%;
+    background: #aed6dc;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background: #aed6dc;
+    color: #aed6dc;
+    font-size: 14px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cards-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-wrap .card-item {
+    width: 25%;
+    padding: 10px;
+}
+
+.cards-wrap .card-inner {
+    background: #4a536b;
+    border-radius: 4px;
+}
+
+.cards-wrap .card-top {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.cards-wrap .card-bottom {
+    padding: 15px;
+}
+
+.cards-wrap .card-bottom .card-category {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards-wrap .card-bottom .card-info {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ff9a8d;
+    border-radius: 4px;
+}
+
+.cards-wrap .card-bottom .card-info .title {
+    color: #aed6dc;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.about b {
+    color: #ff9a8d
+}
+
+.logo {
+    cursor: pointer;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.nav-links {
+    font-weight: 800;
+    list-style: none;
+    font-size: 16px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #4a536b;
+}
+
+.nav-links li a:hover {
+    color: #ff9a8d
+}
+
+.middle {
+    overflow: auto;
+    margin-top: 6px;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu h3 {
+    background-color: #4a536b;
+    color: #aed6dc;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.menu a {
+    background-color: #4a536b;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: #aed6dc;
+    border-radius: 4px;
+}
+
+.menu a:hover {
+    background-color: #aed6dc;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #4a536b;
+    border: 2px solid #ff9a8d;
+    border-radius: 3px;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.right {
+    background-color: #4a536b;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.right span {
+    color: #ff9a8d;
+}
+
+.right button {
+    width: 25%;
+    text-align: center;
+    background: #4a536b;
+    color: #aed6dc;
+    margin-top: 6px;
+    padding: 2px;
+    border: 1px solid #ff9a8d;
+    border-radius: 2px;
+}
+
+.right a {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    background: #4a536b;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+footer .content {
+    max-width: 1350px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .content p,
+a {
+    color: #aed6dc;
+    letter-spacing: 1px;
+}
+
+footer .content .box {
+    width: 33%;
+    transition: all 0.4s ease;
+}
+
+footer .content .topic {
+    font-size: 22px;
+    font-weight: 600;
+    color: #aed6dc;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+footer .content p {
+    text-align: justify;
+}
+
+footer .content .middle {
+    padding-left: 80px;
+}
+
+footer .content .middle a {
+    line-height: 32px;
+}
+
+footer .content .right input[type="text"] {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    color: #aed6dc;
+    background: #4a536b;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 2px solid #ff9a8d;
+}
+
+footer .content .right input[type="submit"] {
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    color: #aed6dc;
+    background: #4a536b;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #ff9a8d;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.content .right input[type="submit"]:hover {
+    background: none;
+    border: 2px solid #aed6dc;
+    color: #ff9a8d;
+}
+
+footer .content .media-icons a {
+    color: #aed6dc;
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #ff9a8d;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+}
+
+.content .media-icons a:hover {
+    border-color: #aed6dc;
+    color: #ff9a8d;
+}
+
+@media only screen and (max-width: 280px) {
+
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+
+    .nav-links li {
+        padding: 0px 9px;
+    }
+
+    .nav-links li a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cards-wrap .card-item {
+        width: 33.3%;
+    }
+
+    footer .content .middle {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:950px) {
+    footer .content .box {
+        width: 50%;
+    }
+
+    .content .right {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-wrap .card-item {
+        width: 50%;
+    }
+
+    .right button {
+        width: 50%;
+    }
+}
+
+@media (max-width:560px) {
+    footer {
+        position: relative;
+    }
+
+    footer .content .box {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    footer .content .middle {
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 528px) {
+    .cards-wrap .card-item {
+        width: 100%;
+    }
+
+    .right {
+        margin-bottom: 2px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+
+    .nav-links li {
+        padding: 0px 12px;
+    }
+
+    .nav-links li a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .nav-links li {
+        padding: 0px 7px;
+    }
+
+    .nav-links li a {
+        font-size: 9px;
+    }
+}
