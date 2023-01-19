@@ -56,7 +56,11 @@ img {
     margin-top: 40px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
+    .center button {
+        width: 50%;
+    }
+
     img {
         width: 100%;
     }
