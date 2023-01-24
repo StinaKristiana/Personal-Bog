@@ -1,0 +1,42 @@
+.middle {
+    overflow: auto;
+    margin-top: 6px;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menu h3 {
+    background-color: #4a536b;
+    color: #aed6dc;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.menu a {
+    background-color: #4a536b;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: #aed6dc;
+    border-radius: 4px;
+}
+
+.menu a:hover {
+    background-color: #aed6dc;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #4a536b;
+    border: 2px solid #ff9a8d;
+    border-radius: 3px;
+}

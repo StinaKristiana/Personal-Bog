@@ -1,31 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import 'style.css';
+@import 'logo.css';
+@import 'link-to.css';
+@import 'footer.css';
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4px 0.5%;
-    background: #aed6dc;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-body {
-    background: #aed6dc;
-    color: #aed6dc;
-    font-size: 14px;
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: 100%;
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
 }
 
 .wrapper {
@@ -81,82 +63,6 @@ img {
     color: #ff9a8d
 }
 
-.logo {
-    cursor: pointer;
-    width: 80px;
-    border-radius: 50px;
-}
-
-.nav-links {
-    font-weight: 800;
-    list-style: none;
-    font-size: 16px;
-}
-
-.nav-links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav-links li a {
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: #4a536b;
-}
-
-.nav-links li a:hover {
-    color: #ff9a8d
-}
-
-.middle {
-    overflow: auto;
-    margin-top: 6px;
-}
-
-.menu {
-    float: left;
-    width: 20%;
-    text-align: center;
-}
-
-.menu h3 {
-    background-color: #4a536b;
-    color: #aed6dc;
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-}
-
-.menu a {
-    background-color: #4a536b;
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
-    color: #aed6dc;
-    border-radius: 4px;
-}
-
-.menu a:hover {
-    background-color: #aed6dc;
-    padding: 8px;
-    margin-top: 7px;
-    display: block;
-    width: 100%;
-    font-weight: bold;
-    color: #4a536b;
-    border: 2px solid #ff9a8d;
-    border-radius: 3px;
-}
-
-.main {
-    float: left;
-    width: 60%;
-    padding: 0 20px;
-}
-
 .right {
     background-color: #4a536b;
     float: left;
@@ -187,105 +93,7 @@ img {
     text-decoration: none;
 }
 
-footer {
-    width: 100%;
-    position: absolute;
-    background: #4a536b;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
 
-footer .content {
-    max-width: 1350px;
-    margin: auto;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer .content p,
-a {
-    color: #aed6dc;
-    letter-spacing: 1px;
-}
-
-footer .content .box {
-    width: 33%;
-    transition: all 0.4s ease;
-}
-
-footer .content .topic {
-    font-size: 22px;
-    font-weight: 600;
-    color: #aed6dc;
-    margin-bottom: 16px;
-    text-align: center;
-}
-
-footer .content p {
-    text-align: justify;
-}
-
-footer .content .middle {
-    padding-left: 80px;
-}
-
-footer .content .middle a {
-    line-height: 32px;
-}
-
-footer .content .right input[type="text"] {
-    height: 30px;
-    width: 100%;
-    outline: none;
-    color: #aed6dc;
-    background: #4a536b;
-    border-radius: 4px;
-    padding-left: 10px;
-    font-size: 14px;
-    border: 2px solid #ff9a8d;
-}
-
-footer .content .right input[type="submit"] {
-    height: 30px;
-    width: 100%;
-    font-size: 16px;
-    color: #aed6dc;
-    background: #4a536b;
-    outline: none;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    margin-top: 12px;
-    border: 2px solid #ff9a8d;
-    transition: all 0.3s ease-in-out;
-    font-weight: bold;
-}
-
-.content .right input[type="submit"]:hover {
-    background: none;
-    border: 2px solid #aed6dc;
-    color: #ff9a8d;
-}
-
-footer .content .media-icons a {
-    color: #aed6dc;
-    font-size: 16px;
-    height: 45px;
-    width: 45px;
-    display: inline-block;
-    text-align: center;
-    line-height: 43px;
-    border-radius: 5px;
-    border: 2px solid #ff9a8d;
-    margin: 30px 5px 0 0;
-    transition: all 0.3s ease;
-}
-
-.content .media-icons a:hover {
-    border-color: #aed6dc;
-    color: #ff9a8d;
-}
 
 @media only screen and (max-width: 280px) {
 

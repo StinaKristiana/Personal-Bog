@@ -127,7 +127,7 @@ body {
 
 .about-right {
     background: #fff;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -212,6 +212,7 @@ body {
     font-weight: bold;
 }
 
+
 @media screen and (min-width: 992px) {
     .about-wrapper {
         display: grid;
@@ -228,36 +229,8 @@ body {
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .about-right h1 {
-        margin-top: 100px;
-    }
-}
-
 @media only screen and (max-width: 280px) {
-    .about-right {
-        height: 187vh;
-    }
-
     .about-left {
-        height: 92vh;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .about-right h1 {
-        margin-top: 300px;
-    }
-}
-
-@media only screen and (max-width: 820px) {
-    .about-right {
-        height: 60vh;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .about-right {
-        height: 100vh;
+        background: none;
     }
 }

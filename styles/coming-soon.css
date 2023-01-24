@@ -1,11 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import 'main.css';
+@import 'about.css';
+@import 'dogs.css';
 
 div.wrapper {
     text-align: center;
+    display: grid;
+    margin-top: 22px
 }
+
+.wrapper h2,
+h3 {
+    color: #4a536b;
+}
+
 
 .wrapper span {
     color: #ff9a8d
+}
+
+img {
+    width: 25%;
+    display: initial;
+}
+
+figcaption {
+    padding: 12px;
+    color: #4a536b;
 }
 
 .center {
@@ -17,14 +38,13 @@ div.wrapper {
 }
 
 .center button {
-    width: 5%;
     text-align: center;
     padding: 12px;
     font-size: 16px;
     border: 1px solid #ff9a8d;
     border-radius: 2px;
     text-decoration: none;
-    background: #aed6dc;
+    background: #4a536b;
     font-weight: bold;
 }
 
@@ -32,22 +52,12 @@ div.wrapper {
 
 .center a {
     text-decoration: none;
-}
-
-img {
-    width: 35%;
-}
-
-.wrapper img {
-    margin-top: 40px;
+    color: #aed6dc;
 }
 
 @media (max-width: 1440px) {
-    .center button {
-        width: 50%;
-    }
-
     img {
         width: 100%;
+        padding: 12px;
     }
 }
